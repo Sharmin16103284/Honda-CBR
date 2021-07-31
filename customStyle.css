@@ -1,0 +1,83 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+/* header */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.headPart{
+    background-color: #264653;
+    padding: 5%;
+}
+
+p{
+    color: rgb(119, 118, 118);
+}
+
+.purchaseBtn{
+    background-color: #E76F51;
+}
+
+/* main part */
+main{
+    margin: 0 5%;
+}
+
+
+/* Fetured Bikes */
+
+.greyImage{
+    filter: grayscale(100%);
+    transition: filter 1s ease;
+}
+
+.greyImage:hover{
+    filter: grayscale(0);
+}
+
+.readMore{
+    border: 1px solid #E76F51;
+    color: #E76F51;
+    transition: background-color 1.5s ease;
+}
+
+.readMore:hover{
+    background-color: #E76F51;
+    border: none;
+    color: white;
+}
+
+
+/* Latest News */
+.myCard{
+    box-shadow: 0px 0px 4px #dad9d9;
+}
+
+/* text color */
+small, span{
+    color: #E76F51;
+}
+
+/* Frequently Asked Questions */
+
+.myAccordationItem{
+    border: 1px solid #D5E5FB;
+}
+
+.myAccordationBtn{
+    color: rgba(56, 56, 56, 1);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.myAccordationBtn:not(.collapsed){
+    color: rgba(56, 56, 56, 1);
+    background-color: white;
+}
+
+/* contact */
+.contact
+{
+    box-shadow: 0px 0px 4px #dad9d9;
+}
